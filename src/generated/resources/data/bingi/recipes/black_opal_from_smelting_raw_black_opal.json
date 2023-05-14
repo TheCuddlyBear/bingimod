@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "black_opel",
+  "ingredient": {
+    "item": "bingi:raw_black_opal"
+  },
+  "result": "bingi:black_opal"
+}

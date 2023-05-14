@@ -56,7 +56,15 @@ description='''
    ordering="NONE"
    # Side this dependency is applied on - BOTH, CLIENT or SERVER
    side="BOTH"
-# Here's another dependency
+
+[[dependencies.bingi]] #optional
+# the modid of the dependency
+modId="geckolib"
+mandatory=true
+versionRange="[4.1.3,)"
+ordering="NONE"
+side="BOTH"
+
 [[dependencies.bingi]]
    modId="minecraft"
    mandatory=true

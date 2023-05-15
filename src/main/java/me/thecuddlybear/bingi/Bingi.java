@@ -7,6 +7,7 @@ import me.thecuddlybear.bingi.entity.client.RuizEntityRenderer;
 import me.thecuddlybear.bingi.entity.client.TigerEntityRenderer;
 import me.thecuddlybear.bingi.item.ModCreativeModTabs;
 import me.thecuddlybear.bingi.item.ModItems;
+import me.thecuddlybear.bingi.sound.ModSounds;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.BlockItem;
@@ -49,6 +50,7 @@ public class Bingi {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
